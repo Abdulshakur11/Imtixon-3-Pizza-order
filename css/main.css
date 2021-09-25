@@ -1,0 +1,185 @@
+body {
+  background-color: rgba(0, 0, 0, 0.082);
+}
+
+/* .row-left {
+  border-right: 1px solid black;
+} */
+
+.row-right {
+  border-left: 1px solid black;
+  margin-top: 15px;
+}
+
+.stie-title {
+  width: 100%;
+  max-width: 410px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selest-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+.choose-select {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 15px;
+}
+
+
+.result-wrapper{
+  display: flex;
+  align-items: center;
+  /* margin-top: 80px; */
+}
+
+.choose-select-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.choose-select-result {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 3px;
+}
+.title {
+  padding-bottom: 15px;
+}
+
+.pizza-size-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.radio-label {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding-top: 36px;
+  padding-left: 30px;
+  margin: 10px;
+}
+
+
+
+.radio-label:hover {
+  transition: all 0.2s ease;
+  background-color: #fff;
+}
+
+.radio-label:active {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.377),
+              inset -5px -5px 10px rgba(0, 0, 0, 0.377);
+  background-color: rgba(255, 157, 0, 0.829);          
+}
+
+.pizza-size-wrapper {
+  margin-top: 20px;
+}
+
+.pizza-size-result {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 10px
+}
+
+.add-vegetables-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.add-vegetables-list {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.additioanl-list {
+  width: 100%;
+  max-width: 330px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.addVegetables-item {
+  list-style-type: none;
+  width: 190px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.addVegetables-item:hover {
+  background: rgba(0, 0, 0, 0.158);
+}
+
+.addVegetables-item:active {
+  background: rgba(0, 0, 0, 0.400);
+}
+
+.addVegetables-label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.pizzaSize-radio {
+  display: none;
+}
+
+.add-vegetables-item {
+  margin: 0;
+  margin: 3px;
+  list-style-type: none;
+}
+
+.add-vegetables-item::before {
+  content: '';
+  display: block;
+  border: 1px solid black;
+  width: 10px;
+  transform: translate(-15px, 15px);
+}
+
+.additioanl-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.addtionals-item {
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.addtionals-item:hover {
+  background: rgba(0, 0, 0, 0.158);
+}
+
+.addtionals-item:active {
+  background: rgba(0, 0, 0, 0.400);
+}
